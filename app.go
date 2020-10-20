@@ -18,7 +18,9 @@ type Application struct {
 //TODO - come back and implement these
 
 func (a *Application) Initialize(username, password, dbname string) {
-	fmt.Printf("Initialize the application using username %v and dbname %v", username, dbname)
+	fmt.Printf("Initialize the application using username %v and dbname %v\n", username, dbname)
 }
 
-func (a *Application) Run(address string) {}
+func (a *Application) Run(address string) {
+	fmt.Printf("Attempting to run application on %v\n", address)
+}
