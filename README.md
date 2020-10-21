@@ -14,3 +14,8 @@ Based on https://semaphoreci.com/community/tutorials/building-and-testing-a-rest
 ### Sources/References
 1. https://github.com/TomFern/go-mux-api
 2. https://github.com/hashicorp/consul
+
+
+
+### Some notes
+1. Docker for postgres: docker run -it -p 5432:5432 -d -e POSTGRES_PASSWORD=Pass2020! postgres
